@@ -1,4 +1,6 @@
-console.log(`*********************** Variable Declaration ***********************`);
+console.log(
+  `*********************** Variable Declaration ***********************`
+);
 
 let value; // Declare a variable "value"
 value = 10; // Assigned 10 to variable "value"
