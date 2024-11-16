@@ -6,4 +6,4 @@ import "./js-builtin-object/math";
 import "./js-builtin-object/date";
 import "./js-builtin-object/number";
 
-import "./js-builtin-class/date";
+import "./js-builtin-class/date-class";
