@@ -10,4 +10,13 @@ dependencies {
     // Logging Dependencies
     implementation 'org.slf4j:slf4j-api:2.0.7' //SLF4J (Simple Logging Facade for Java): Acts as a facade for various logging frameworks.
     implementation 'ch.qos.logback:logback-classic:1.4.11' //Logback: A modern logging framework often used with SLF4J.
+
+    // Testing Library
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0' // JUnit 5 (Jupiter) for testing
+    testImplementation 'org.mockito:mockito-core:5.5.0' // Mockito for mocking and testing
+    testImplementation 'org.mockito:mockito-junit-jupiter:5.5.0' // Mockito JUnit 5 extension
+}
+
+tasks.test {
+    useJUnitPlatform()
 }
