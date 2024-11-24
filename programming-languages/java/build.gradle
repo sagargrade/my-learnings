@@ -15,6 +15,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0' // JUnit 5 (Jupiter) for testing
     testImplementation 'org.mockito:mockito-core:5.5.0' // Mockito for mocking and testing
     testImplementation 'org.mockito:mockito-junit-jupiter:5.5.0' // Mockito JUnit 5 extension
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.10.0' // Enables parameterized testing.
 }
 
 tasks.test {
