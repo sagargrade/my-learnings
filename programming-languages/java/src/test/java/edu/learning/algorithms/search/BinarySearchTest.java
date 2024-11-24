@@ -30,7 +30,7 @@ class BinarySearchTest {
     }
 
     @ParameterizedTest
-    @MethodSource("provideSearchData")
+    @MethodSource(value = "provideSearchData")
     @DisplayName("Should return index if found else -1 in iterative way")
     void testSearchIterative(int[] array, int value, int expectedIndex) {
         //arrange
@@ -41,7 +41,7 @@ class BinarySearchTest {
     }
 
     @ParameterizedTest
-    @MethodSource("provideSearchData")
+    @MethodSource(value = "provideSearchData")
     @DisplayName("Should return index if found else -1 in recursive way")
     void testSearchRecursive(int[] array, int value, int expectedIndex) {
         //arrange
