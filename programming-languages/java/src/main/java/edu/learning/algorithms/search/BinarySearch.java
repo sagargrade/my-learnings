@@ -2,6 +2,13 @@ package edu.learning.algorithms.search;
 
 public class BinarySearch {
 
+    /**
+     * @param array
+     * @param value
+     * @return index
+     * TimeComplexity - O(log n)
+     * SpaceComplexity - O(1)
+     */
     public int searchIterative(int[] array, int value) {
         int startIndex = 0;
         int endIndex = array.length - 1;
@@ -18,6 +25,15 @@ public class BinarySearch {
         return -1;
     }
 
+    /**
+     * @param array
+     * @param value
+     * @param startIndex
+     * @param endIndex
+     * @return index
+     * TimeComplexity - O(log n)
+     * SpaceComplexity - O(log n)
+     */
     public int searchRecursive(int[] array, int value, int startIndex, int endIndex) {
         if (startIndex > endIndex) {
             return -1;
