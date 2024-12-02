@@ -1,4 +1,4 @@
-package edu.learning.solutions.search.competition.aoc2024;
+package edu.learning.solutions.competition.aoc2024;
 
 import lombok.extern.slf4j.Slf4j;
 
