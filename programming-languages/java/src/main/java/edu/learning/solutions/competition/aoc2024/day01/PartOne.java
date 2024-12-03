@@ -3,7 +3,7 @@ package edu.learning.solutions.competition.aoc2024.day01;
 import java.util.Comparator;
 import java.util.List;
 
-public class Day01PartOne {
+class PartOne {
 
     public long calculateTotalDistance(List<Integer> listOne, List<Integer> listTwo) {
         long totalDistance = 0;

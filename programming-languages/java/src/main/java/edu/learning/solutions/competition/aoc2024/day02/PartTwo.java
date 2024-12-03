@@ -3,11 +3,11 @@ package edu.learning.solutions.competition.aoc2024.day02;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Day02PartTwo {
+class PartTwo {
 
-    private final Day02PartOne partOne;
+    private final PartOne partOne;
 
-    public Day02PartTwo(Day02PartOne partOne) {
+    public PartTwo(PartOne partOne) {
         this.partOne = partOne;
     }
 

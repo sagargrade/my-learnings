@@ -8,12 +8,12 @@ import java.util.Arrays;
 import java.util.List;
 
 @Getter
-public class Day01DataHandler implements DataHandler {
+class DataHandlerImpl implements DataHandler {
 
     private final List<Integer> listOne;
     private final List<Integer> listTwo;
 
-    public Day01DataHandler() {
+    public DataHandlerImpl() {
         this.listOne = new ArrayList<>();
         this.listTwo = new ArrayList<>();
     }

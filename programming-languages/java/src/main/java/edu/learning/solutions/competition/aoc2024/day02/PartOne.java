@@ -3,7 +3,7 @@ package edu.learning.solutions.competition.aoc2024.day02;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Day02PartOne {
+class PartOne {
 
     public int getSafeReportCount(List<List<Integer>> reports) {
         int safeReportCount = 0;

@@ -9,11 +9,11 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Getter
-public class Day02DataHandler implements DataHandler {
+class DataHandlerImpl implements DataHandler {
 
     private final List<List<Integer>> reports;
 
-    public Day02DataHandler() {
+    public DataHandlerImpl() {
         this.reports = new ArrayList<>();
     }
 
