@@ -6,3 +6,9 @@ build
 gradle
 gradlew
 gradlew.bat
+
+# Ignore Eclipse IDE Files
+.settings
+bin
+.classpath
+.project

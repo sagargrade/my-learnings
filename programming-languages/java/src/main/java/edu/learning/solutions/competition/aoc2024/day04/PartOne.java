@@ -3,8 +3,8 @@ package edu.learning.solutions.competition.aoc2024.day04;
 class PartOne {
 
     private final int[][] DIRECTIONS = {
-            {0, -1}, {0, 1},            //Vertical Direction
-            {-1, 0}, {1, 0},            //Horizontal Direction
+            {0, -1}, {0, 1},            //Vertical Direction2D
+            {-1, 0}, {1, 0},            //Horizontal Direction2D
             {1, 1}, {-1, 1},            //Bottom Diagonal
             {1, -1}, {-1, -1}           //Top Diagonal
     };
