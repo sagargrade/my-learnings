@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class PartTwo {
+class PartTwo {
 
     public int countOfLocationOfAntiNodesAnyDistance(List<char[]> antennaMap) {
         Map<Character, List<Point>> antennaPositionMap = new LinkedHashMap<>();
